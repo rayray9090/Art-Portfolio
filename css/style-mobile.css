@@ -1,0 +1,632 @@
+body {
+	background: #FFFBF8;
+	margin: 0px;
+    width: 100vw;
+    padding-right: 0px;
+
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.navigation {
+    margin: 45px 45px 45px 45px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+h1 {
+	font-family: "lulo-one", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 21px;
+	color: #110F0E;
+}
+
+h2 {
+	font-family: "lulo-one", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 15px;
+	color: #110F0E;
+}
+
+p {
+	font-family: "arboria", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #110F0E;
+}
+
+.menu {
+    font-family: lulo-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -2px;
+    text-decoration: none;
+    color: #110F0E;
+    margin: auto;
+    transition: all 0.15s ease-out;
+
+}
+
+.add-45-right {
+	margin-right: 25px;
+}
+
+.menu-bold {
+    font-family: lulo-one, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -2px;
+    text-decoration: none;
+    color: #110F0E;
+    transition: all 0.15s ease-out;
+
+}
+
+.paragraph {
+	margin-bottom: 45px;
+}
+
+.menu:hover {
+	color: #A79A93;
+	transition: all 0.15s ease-out;
+}
+
+.menu-bold:hover {
+	color: #A79A93;
+	transition: all 0.15s ease-out;
+}
+
+.menu:active {
+	color: #EEE9E6;
+}
+
+.menu-bold:active {
+	color: #EEE9E6;
+}
+
+.padding-90 {
+	padding: 180px 90px;
+}
+
+.button {
+	padding: 15px 45px;
+	border-radius: 2px;
+	background: #110F0E;
+	font-family: lulo-one, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFFBF8;
+	width: auto;
+	margin-bottom: 30px;
+	transition: all 0.15s ease-out;
+}
+
+.button:hover {
+	background: #A79A93;
+	transition: all 0.15s ease-out;
+}
+
+.button:active {
+	background: #EEE9E6;
+}
+
+.sideways-main {
+	background: #0001F3;
+	transform: rotate(-90deg);
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-content: center;
+    justify-content: center;
+	/*background: url("../img/black-queen-background-transparent.png");
+    background-position: center;
+	background-size: cover;*/
+}
+
+.hero-right {
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-img-div {
+	height: 90px;
+	width: 100vw;
+    margin-top: auto;
+    margin-bottom: auto;
+	background-position: center;
+	background-size: cover;
+	border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.hero-img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.hero-img-title {
+	height: 80vh;
+	margin-right: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.hero-middle-title {
+	text-align: left;
+	font-size: 55px;
+
+
+}
+
+.featured-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-bottom: 90px;
+    padding-right: 10px;
+}
+
+.featured-section-left {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.featured-section-right {
+	display: flex;
+	flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.featured-painting {
+	width: 282px;
+}
+
+.featured-contain {
+	object-fit: cover;
+	width: 30%;
+	border-radius: 2px;
+	margin: 55px 2.5% 0px 2.5%;
+}
+
+.featured-contain-exp {
+	object-fit: cover;
+	width: 100vw;
+	border-radius: 2px;
+	margin: 0px 45px;
+}
+
+.featured-painting-1-exp {
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	transition: all 0.15s ease-out;
+}
+
+.featured-painting-1-exp:hover {
+    transition: all 0.15s ease-out;
+    transform: scale(1.01);
+}
+
+.delete-45-left {
+	margin-left: 0px;
+}
+
+.delete-45-right {
+	margin-right: 0px;
+}
+
+.about-section {
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+    padding-left: 10px;
+	justify-content: center;
+	align-content: center;
+    width: 100vw;
+}
+
+.about-img-div {
+    width: 100vw;
+    background: url("../img/ray-portrait.png"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.about-img {
+	width: 100%;
+	height: 100%;
+}
+
+.about-img-title {
+	align-self: center;
+	height: 50vh;
+	margin-right: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 45px;
+	justify-content: center;
+	align-content: center;
+}
+
+.about-middle-div {
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center; */
+
+}
+
+.about-middle-title {
+	text-align: center;
+	font-size: 50px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.contact-title {
+	text-align: left;
+	font-size: 21px;
+	margin-bottom: 45px;
+}
+
+.contatct-section {
+	display: flex;
+	flex-direction: column;
+	padding: 180px 10px 180px 10px;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.contact-form-div {
+	width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #0001F3;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-name {
+	width: 70vw;
+	height: 45px;
+	border: none;
+	background: #E8E8E8;
+	border-radius: 2px;
+	padding-left: 15px;
+	font-family: "arboria", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 21px;
+	color: #110F0E;
+	margin-bottom: 25px;
+}
+
+.form-email {
+	width: 70vw;
+	height: 45px;
+	border: none;
+	background: #E8E8E8;
+	border-radius: 2px;
+	padding-left: 15px;
+	font-family: "arboria", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 21px;
+	color: #110F0E;
+	margin-bottom: 25px;
+}
+
+.form-message {
+	width: 70vw;
+	resize: none;
+	border: none;
+	background: #E8E8E8;
+	border-radius: 2px;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-family: "arboria", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 21px;
+	color: #110F0E;
+	margin-bottom: 25px;
+	height: 200px;
+}
+
+.form-button {
+	padding: 15px 45px;
+	border-radius: 2px;
+	background: #110F0E;
+	font-family: lulo-one, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFFBF8;
+	margin-bottom: 30px;
+	transition: all 0.15s ease-out;
+	border :none;
+	width: 200px;
+}
+
+.form-button:hover {
+	background: #A79A93;
+	transition: all 0.15s ease-out;
+}
+
+.form-button:active {
+	background: #EEE9E6;
+}
+
+.contact-info-div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.text-white {
+	color: #FFFBF8;
+}
+
+.social-div {
+	display: flex;
+	flex-direction: row;
+}
+
+.social-logo {
+	height: 35px;
+}
+
+.social-link {
+	margin-right: 25px;
+}
+
+.center-horizontal {
+	display: flex;
+	background: #110F0E;
+	padding: 45px;
+	margin-left: 0px;
+	border-radius: 2px;
+	width: 70vw;
+	height: 300px;
+}
+
+.footer-section {
+	background-color: #110F0E;
+	padding: 90px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #FFFBF8;
+	font-family: "lulo-one", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	transition: all 0.15s ease-out;
+	margin-bottom: 45px;
+}
+
+.footer-link:hover {
+	color: #A79A93;
+	transition: all 0.15s ease-out;
+}
+
+.footer-link:active {
+	color: #262220;
+}
+
+.artwork-section {
+	padding-top: 100px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.artwork-grid {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.artwork-contain {
+	object-fit: cover;
+	height: 66vw;
+	width: 50vw;
+	border-radius: 2px;
+	margin: 0px 45px;
+}
+
+.artwork-grid-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	transition: all 0.15s ease-out;
+}
+
+.artwork-grid-img:hover {
+    transition: all 0.15s ease-out;
+    transform: scale(1.01);
+}
+
+.artwork-contain {
+	object-fit: cover;
+	border-radius: 2px;
+	margin: 0px 10px 45px 10px;
+}
+
+.artwork-title {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.artwork-middle-div {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+.painting-title {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 45px;
+}
+
+.painting-title-horizontal {
+	text-align: center;
+	font-size: 50px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.painting-section {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.painting-section-horizontal {
+	height: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-top: 0px;
+	padding-bottom: 90px;
+}
+
+.details-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    max-width: 90vw;
+}
+
+.details-section-horizontal {
+	display: flex;
+	flex-direction: column;
+	margin-top: 90px;
+	max-width: 80vw;
+}
+
+.painting-img-div {
+    margin-top: auto;
+    margin-bottom: auto;
+	background: url("../img/black-queen-background.png");
+	background-position: center;
+	background-size: cover;
+	border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.painting-contain {
+	object-fit: cover;
+	width: 275px;
+	border-radius: 2px;
+	margin: 0px 45px;
+}
+
+.painting-1-exp {
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	transition: all 0.15s ease-out;
+}
+
+.painting-full {
+	height: 70vh;
+	width: 100vw;
+	margin: auto;
+}
+
+.painting {
+    width: 90vw;
+    height: auto;
+    border-radius: 2px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.painting-horizontal {
+	width: 50vw;
+	height: auto;
+	border-radius: 2px;
+	margin: 90px auto auto auto;
+}
+
+.painting-right {
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: 95vw;
+}
+
+.painting-bottom {
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+	text-align: center;
+}

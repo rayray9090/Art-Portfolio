@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ray Levante</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="../../../css/style.css">
+		<link rel="stylesheet" href="https://use.typekit.net/wkz4ddt.css">
+
+    </head>
+    <body>
+		<nav class="navbar">
+			<a href="../../../index.html" class="nav-logo">RAY LEVANTE</a>
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a class="nav-link-bold" href="../../../index.html">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../../../artwork.html">ARTWORK</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../../../shop.html">SHOP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../../../events.html">EVENTS &amp; NEWS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../../../index.html#about">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../../../contact.html">CONTACT</a>
+				</li>
+			</ul>
+			<div class="hamburger">
+				<img class="hamburger-line-one" src="../../../img/hamburger-line.png">
+				<img class="hamburger-line-two" src="../../../img/hamburger-line.png">
+				<img class="hamburger-line-three" src="../../../img/hamburger-line.png">
+			</div>
+		</nav>
+		
+		<div class="article-section">
+			<div class="article-container">
+				<div class="article-contents">
+					<!-- Title Section -->
+					<div class="article-title-section">
+						<!-- Choose ARTICLE, PAST EVENT, CURRENT EVENT, or UPCOMING EVENT and change date to date of event or of publish. -->
+						<p class="article-category">Past Event | January 1, 2024</p>
+
+
+						<!-- Insert Article/Event Title -->
+						<h1 class="article-title">THE CANVAS SPEAKS: ART EXHIBITION</h1>
+
+						<!-- Insert Subheader -->
+						<h2 class="article-subtitle">Ray Levante’s first solo art exhibition.</h2>
+					</div>
+					
+					<!-- Image Section -->
+					<div class="atricle-image-main">
+						<!-- Place photo file in this article's assets folder. Then change file name below to the desired photo file. Default is "ray-portrait.png" -->
+						<img class="article-img" src="article-assets/ray-portrait.png">
+					</div>
+					
+					<!-- Body Section -->
+					<!-- Copy elements from the bottom of this page and paste in div. Remove comment tags to enable code -->
+					<div class="article-body-section">
+						<h3 class="article-paragraph-header">Paragraph Header</h3>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+						<!-- Single Image -->
+						<div class="article-img-body">
+							<img class="article-img-body-file" src="article-assets/ray-portrait.png">
+							<p class="article-img-description">Ray sitting down for some reason.</p>
+						</div>
+
+						<h3 class="article-paragraph-header">Paragraph Header</h3>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+						<div class="slideshow-container">
+							<div class="mySlides">
+								<img src="article-assets/ray-portrait.png" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="article-assets/image2.png" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="article-assets/image3.jpg" style="width:100%">
+							</div>
+
+							<div style="text-align:center">
+								<span class="dot"></span>
+								<span class="dot"></span>
+								<span class="dot"></span>
+							</div>
+						</div>
+						<script>
+						  var slideIndex = 1;
+						  showSlides(slideIndex);
+
+						  function plusSlides(n) {
+							showSlides(slideIndex += n);
+						  }
+
+						  function currentSlide(n) {
+							showSlides(slideIndex = n);
+						  }
+
+						  function showSlides(n) {
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("dot");
+							if (n > slides.length) {slideIndex = 1}
+							if (n < 1) {slideIndex = slides.length}
+							for (i = 0; i < slides.length; i++) {
+								slides[i].style.display = "none";
+							}
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";
+							dots[slideIndex-1].className += " active";
+						  }
+
+						  var dots = document.getElementsByClassName("dot");
+						  for (var i = 0; i < dots.length; i++) {
+							dots[i].addEventListener("click", function() {
+							  var dotIndex = Array.prototype.indexOf.call(dots, this);
+							  currentSlide(dotIndex + 1);
+							});
+						  }
+						</script>
+
+						<h3 class="article-paragraph-header">Paragraph Header</h3>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+						<p>Set against a subdued grey background, the piece draws focus solely on the empowered expression of the Black Queen. The direct, unwavering gaze transcends the canvas, inviting viewers to reflect upon their own perceptions, biases, and the powerful narratives that shape us all. This artwork stands as a tribute to the resilience, beauty, and grace that define the multifaceted identity of the black woman, inviting contemplation on both the seen and the unseen layers of her existence.</p>
+
+
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer-section">
+			<a class="footer-link" href="index.html">
+				<h1 class="footer-link" style="margin-bottom: 45px">RAY LEVANTE</h1>
+			</a>
+			<a class="footer-link" href="../../../index.html">
+				<h3 class="footer-link">HOME</h3>
+			</a>
+			<a class="footer-link" href="../../../artwork.html">
+				<h3 class="footer-link">ARTWORK</h3>
+			</a>
+			<a class="footer-link" href="../../../shop.html">
+				<h3 class="footer-link">SHOP</h3>
+			</a>
+			<a class="footer-link" href="../../../events.html">
+				<h3 class="footer-link">EVENTS &amp; NEWS</h3>
+			</a>
+			<a class="footer-link" href="../../../index.html#about">
+				<h3 class="footer-link">ABOUT</h3>
+			</a>
+			<a class="footer-link" href="../../../contact.html">
+				<h3 class="footer-link">CONTACT</h3>
+			</a>
+			<div style="margin: 45px 0px" class="social-div">
+						<a class="social-link" href="mailto:info@raylevante.com">
+							<img class="social-logo" src="../../../img/mail-icon.png">
+						</a>
+						<a target="_blank" class="social-link" href="https://www.instagram.com/ray.levante">
+							<img class="social-logo" src="../../../img/instagram-logo.png">
+						</a>
+						<a target="_blank" class="social-link" href="https://x.com/ray_levante">
+							<img class="social-logo" src="../../../img/twitter-logo.png">
+						</a>
+						<a target="_blank" class="social-link" href="https://www.facebook.com/profile.php?id=61554441393173&mibextid=LQQJ4d">
+							<img class="social-logo" src="../../../img/facebook-logo.png">
+						</a>
+			</div>
+			<p class="white-text">Designed and built by <a class="white-link" target="_blank" href="https://www.instagram.com/ricky.ruiz02/">Ricky Ruiz</a></p>
+		</div>
+		
+		
+		
+		
+		<script src="../../../js/main.js"></script>
+	</body>
